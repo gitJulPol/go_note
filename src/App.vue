@@ -2,8 +2,8 @@
 	<div class="container-fluid p-0 m-0 vh-100">
 		<div class="row p-0 m-0 h-100">
 			<div class="col-12 col-md-5 col-lg-4 bg-light p-0 h-100">
-				<h3 class="w-100 text-center p-4">
-					<i class="bi bi-clipboard-check text-secondary"></i>
+				<h3 class="w-100 text-center p-4 custom-heading">
+					<i class="bi-flower1"></i>
 						GoNote
 				</h3>
 					<button type="button" class="btn btn-dark w-100 py-2 rounded-0" v-on:click="showAddForm()">
@@ -85,9 +85,19 @@
 
 <style>
 .cover {
-	background-image: url("./assets/background.jpg");
+	background-image: url("./assets/background2.jpg");
 	background-position: center;
 	background-size: cover;
 	min-height: 150px;
+}
+
+.custom-nav {
+	background-color: #5A2B35;
+
+}
+
+.custom-heading{
+	color: #035749;
+
 }
 </style>
